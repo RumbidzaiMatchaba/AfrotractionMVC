@@ -1,0 +1,124 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="Main-Content">
+    <div class="content-image-flex">
+        <div id="left"><img src="~/Images/Prints/IMG_20190613_163154.png" style="width:652px; height:450px; " /></div>
+        <div id="right"><img src="~/Images/Prints/IMG_20190613_163212.png" style="width:652px; height:450px; " /></div>
+        <div class="logo"> <img src="~/Images/Prints/Logo.jpg" style="width:300px; height:150px; " /></div>
+    </div>
+    <br />
+    <div class="mini-logo"><h1>Afro-ttraction</h1></div>
+
+    <div class="para-content">
+        <p>
+            Why you should go to The Great Discontent for web design inspiration
+            Intimate interviews with design industry leaders
+            Sometimes, the design industry can feel hyper-focused on concrete things like deliverables, workflows, tools, and best practices.
+
+            All that’s powerful, and much needed, but it can also lead us to lose sight of the real human beings behind the pixels — and the often-powerful stories that led them to their dream careers. The Great Discontent affords us a rare, personal glimpse behind the screens to explore more nebulous, but ultimately more emotional topics like the links between creativity and vulnerability, the power of stories, and the often-difficult art of saying no.
+
+            It’s powerful stuff, and could do more to inspire you than all the eye-candy 16 Dribbbles could offer.
+        </p>
+    </div>
+    <br />
+    <div class="grid-content">
+        <div class="grid-one">
+            <div style="width:350px; height:400px;">
+                <img src="~/Images/Prints/bag.jpg" style="width:300px; height:300px;" />
+                <div class="middle">
+                    <div class="text">
+                        <ul>
+                            <li>Description: African Print Sports Bag</li>
+                            <li>Price : R450</li>
+                            <li>Size: Medium, Large</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>African Print Sports Bag</h3>
+                <p>
+                    Why you should go to The Great Discontent for web design inspiration
+                    Intimate interviews with design industry leaders
+                </p>
+            </div>
+            <div style="width:350px; height:400px;">
+                <img src="~/Images/Prints/dress1.jpg" style="width:300px; height:300px;" />
+                <div class="middle">
+                    <div class="text">
+                        <ul>
+                            <li>Description: Ladies Purple Dress</li>
+                            <li>Price : R350</li>
+                            <li>Size: Large,Medium, Small </li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>Ladies Purple Dress</h3>
+                <p>
+                    Why you should go to The Great Discontent for web design inspiration
+                    Intimate interviews with design industry leaders
+                </p>
+            </div>
+        </div>
+        <div class="grid-two">
+            <div style="width:350px; height:400px;">
+                <img src="~/Images/Prints/bag2.jpg" style="width:300px; height:300px;" />
+                <div class="middle">
+                    <div class="text">
+                        <ul>
+                            <li>Description: Fashionable Toiletry-Pack</li>
+                            <li>Price : R350</li>
+                            <li>Size: Medium </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Fashionable Toiletry-Pack</h3>
+                <p>
+                    Why you should go to The Great Discontent for web design inspiration
+                    Intimate interviews with design industry leaders
+                </p>
+            </div>
+            <div style="width:350px; height:400px;">
+                <img src="~/Images/Prints/shirt1.jpg" style="width:300px; height:300px;" />
+                <div class="middle">
+                    <div class="text">
+                        <ul>
+                            <li>Description: Men's Black Print Shirt</li>
+                            <li>Price : R350</li>
+                            <li>Size: Large, Medium, Small </li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>Men's Black Print Shirt</h3>
+                <p>
+                    Why you should go to The Great Discontent for web design inspiration
+                    Intimate interviews with design industry leaders
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <br />
+    <div class="product-link-page">
+        @*<button class="button-viewproducts" onclick="location.href=''">
+            View Products
+
+        </button>*@
+        <button>@Html.ActionLink("View Products", "ProductView", "Products")</button>
+    </div>
+    <div class="para-content">
+        <p>
+            Why you should go to The Great Discontent for web design inspiration
+            Intimate interviews with design industry leaders
+            Sometimes, the design industry can feel hyper-focused on concrete things like deliverables, workflows, tools, and best practices.
+
+            All that’s powerful, and much needed, but it can also lead us to lose sight of the real human beings behind the pixels — and the often-powerful stories that led them to their dream careers. The Great Discontent affords us a rare, personal glimpse behind the screens to explore more nebulous, but ultimately more emotional topics like the links between creativity and vulnerability, the power of stories, and the often-difficult art of saying no.
+
+            It’s powerful stuff, and could do more to inspire you than all the eye-candy 16 Dribbbles could offer.
+        </p>
+    </div>
+
+</div>

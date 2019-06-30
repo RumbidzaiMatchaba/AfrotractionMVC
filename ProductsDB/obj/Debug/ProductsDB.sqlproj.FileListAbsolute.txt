@@ -1,0 +1,5 @@
+C:\Users\ruj\Desktop\FiveRoses MVC\FiveRosesTea\ProductsDB\bin\Debug\ProductsDB.dacpac
+C:\Users\ruj\Desktop\FiveRoses MVC\FiveRosesTea\ProductsDB\bin\Debug\ProductsDB.dll
+C:\Users\ruj\Desktop\FiveRoses MVC\FiveRosesTea\ProductsDB\bin\Debug\ProductsDB.pdb
+C:\Users\ruj\Desktop\FiveRoses MVC\FiveRosesTea\ProductsDB\obj\Debug\ProductsDB.dll
+C:\Users\ruj\Desktop\FiveRoses MVC\FiveRosesTea\ProductsDB\obj\Debug\ProductsDB.pdb

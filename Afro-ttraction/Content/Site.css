@@ -1,0 +1,317 @@
+﻿body
+{
+	/*background-color:lightgray;*/
+	background-color:white;
+	min-height:100%; 
+	padding:0; 
+	margin:0; 
+	position:relative;
+   
+	/*min-height:100vh;*/
+}
+
+/*logo Images*/
+.content-image-flex{
+	display:flex;
+   flex-direction:row;
+	flex-wrap:nowrap;
+	z-index:-1;
+
+}
+/*#left #right
+{
+	opacity:0.8;
+	flex:1;
+	flex-grow:1;
+	margin-top:50px;
+}*/
+.content-image-flex > #left #right{
+	margin:auto;
+	flex:1;
+}
+.logo{
+	z-index:1;
+	top:10%;
+  
+	align-content:center;
+	 position: absolute;
+ margin:auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:20px;
+  
+}
+.logo > img:hover
+{
+	transform:scale(1.1);
+}
+
+
+.product-content
+{
+	box-sizing: border-box;
+	display:flex;
+	flex-wrap:wrap;
+	background-color:whitesmoke;
+	border:dashed;
+	border-color:red;
+	border-width:2px;
+}
+.product-content > div
+{
+	height:300px;
+	 flex: 25%;
+  max-width: 16%;
+  padding-right:2px;
+  
+	
+}
+
+.process-one .process-two
+{
+	border:solid;
+	border-color:black;
+	border-width:2px;
+	margin-top:3px;
+	margin-right:2px;
+}
+
+/*Grid Pictures*/
+/*.grid-content
+{
+	display:grid;
+   grid-columns:auto auto;
+   grid-rows: auto auto;
+
+}*/
+/*Flex-Box Way*/
+.grid-content
+{
+	display:flex;
+	margin-left:250px;
+	margin-right:auto;
+	
+}
+.grid-one
+{
+	flex-direction:row;
+	flex:1;
+	margin-top:10px;
+  
+}
+
+.grid-one > div
+{
+	margin-top:50px;
+}
+.grid-two{
+	flex-direction:row;
+	flex:1;
+	margin-top:10px;
+}
+.grid-two > div{
+	margin-top:50px;
+}
+/*Hover effect over the Images */
+.grid-two > div img:hover 
+{
+	opacity:0.4;
+}
+.grid-two > div:hover .middle
+{
+	opacity:1;
+}
+.grid-one > div:hover .middle
+{
+	opacity:1;
+}
+
+.grid-one > div img:hover
+{ opacity:0.4;
+
+}
+
+.text {
+  background-color:#0f1011;
+  color: white;
+  font-size: 20px;
+  padding: 16px 16px;
+}
+.text > ul
+{
+	list-style:none;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*Paragraphs*/
+.para-content > p
+{
+	margin:35px;
+	font-size:15px;
+	padding-top:25px;
+}
+.para-content{
+	border:hidden;
+	background-color:lightgray;
+	height:160px;
+	margin:40px;
+   
+}
+/*Mini-logo*/
+.mini-logo{
+	align-content:center;
+	margin-top:20px;
+	text-align:center;
+
+}
+/*Social Media Icons*/
+.fa {
+ padding: 25px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+/*Footer Stuff*/
+footer{
+	height:300px;
+	background-color:#0f1011;
+	position:absolute;
+	/*position:absolute;*/
+	/*font-size:23px;
+	text-align:end;*/
+	border-radius:5px;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	
+	flex-wrap:wrap;
+}
+#left-foot{
+	flex:1;
+	float:left;
+
+}
+ul,a{
+	text-decoration:none;
+	list-style:none;
+}
+#right-foot{
+	flex:1;
+	float:right;
+
+}
+footer > p{
+	color:#878b8e;
+	padding-top:20px;
+}
+footer > div ul li a
+{
+	font-size:18px;
+}
+
+
+/*About Page Designs*/
+.About-Main-Content
+{
+	min-height:100%;
+	margin-top:100px;
+}
+.about-mission, .about-objective, .about-vision
+{
+   background-color:lightgray;
+	height:160px;
+	margin:40px;
+}
+.about-mission, .about-objective, .about-vision > h2{
+	
+  text-align:center;  
+}
+.about-mission, .about-objective, .about-vision >p{
+	margin:35px;
+	font-size:15px;
+	padding-top:10px;
+
+}
+/*buttonLink stop another page*/
+.product-link-page
+{
+	align-content:center;
+	margin-top:50px;
+}
+/*Contact Page*/
+.contact-content
+{
+  
+	padding-top:100px;
+	display:flex;
+
+}
+.contact-content > div{
+    margin-left:20px;
+}
+.contact-greyarea
+{
+    background-color:lightgray;
+    height:350px;
+    margin-right:80px;
+}
+.contact-greyarea >  form
+{
+    padding:10px;
+}
+
+
+
+
+/*body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}*/
+
+/* Set padding to keep content from hitting the edges */
+/*.body-content {
+	padding-left: 15px;
+	padding-right: 15px;
+}*/
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/@import url('file:///C:\Users\ruj\Downloads\bootstrap-Simplex.css');
+/*.dl-horizontal dt {
+	white-space: normal;
+}*/
+/*
+	adds some text on top of the image
+*/
+   
